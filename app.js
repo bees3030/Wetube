@@ -11,6 +11,7 @@ import routes from "./routes";
 const app = express();
 
 //middleware
+app.set("view engine", "pug");
 app.use(cookieParser());
 //bodyparser이 아직 이해하기 힘들다
 app.use(bodyParser.json());
