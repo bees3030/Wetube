@@ -1,0 +1,28 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "Cloning Youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bees3030/Wetube.git"
+  },
+  "author": "Yen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bees3030/Wetube/issues"
+  },
+  "homepage": "https://github.com/bees3030/Wetube#readme",
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.2"
+  }
+}
